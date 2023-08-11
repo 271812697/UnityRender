@@ -1,0 +1,4 @@
+repository "SRP@wechat_os_qy07dtoeto0kwwrg_es4c9zd4@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
