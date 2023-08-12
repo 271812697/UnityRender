@@ -10,28 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e29675d2ad965b84f97780a5606faa99, type: 3}
-  m_Name: New X Renderer Pipeline Asset
+  m_Name: SRP
   m_EditorClassIdentifier: 
   _srpBatcher: 1
   _shadowSetting:
     _maxShadowDistance: 100
     _shadowCascadeCount: 1
     _cascadeRatio1: 1
-    _cascadeRatio2: 0
-    _cascadeRatio3: 0
-    _cascadeRatio4: 0
+    _cascadeRatio2: 2
+    _cascadeRatio3: 4
+    _cascadeRatio4: 8
     _enableCSMBlend: 0
-    _cascadeShadowBlendDist: 0.5
+    _cascadeShadowBlendDist: 0.261
     _shadowBiasType: 0
     _shadowAAType: 0
     _debugShadowResolution: 0
     _debugShadowCascade: 0
-    _debugShadowResolutionAlpha: 0.5
+    _debugShadowResolutionAlpha: 0.05
     _drawCascadeCullingSphere: 0
-    _cascadeBlendCullingFactor: 0
+    _cascadeBlendCullingFactor: 0.001
   _antiAlias:
-    antiAliasType: 0
-    msaaLevel: 2
+    antiAliasType: 1
+    msaaLevel: 8
     fXAADebug:
       debugEdge: 0
       cullPassThrough: 0

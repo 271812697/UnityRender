@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68255f5fb7f5f7145b0542fd7871b612, type: 3}
-  m_Name: New Builtin Assets
+  m_Name: Bulltin
   m_EditorClassIdentifier: 
-  _BRDFLUT: {fileID: 0}
-  _defaultMaterial: {fileID: 0}
-  _deferredLightingCulling: {fileID: 0}
+  _BRDFLUT: {fileID: 2800000, guid: aca26a2221a4c6b4fa1c5e1961121a95, type: 3}
+  _defaultMaterial: {fileID: 2100000, guid: ee5fddafc84eeef4ca92da52e33a6d2d, type: 2}
+  _deferredLightingCulling: {fileID: 7200000, guid: 3fe42726c2752d040a21b6dfe8f9d8d9,
+    type: 3}
